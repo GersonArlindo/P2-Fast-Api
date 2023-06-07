@@ -23,5 +23,5 @@ async def usersjson():
             {"name": "Helen", "surname": "Nicole", "url":"https://moure.dev", "age": 30}]
 
 @app.get("/users")
-async def userclass():
+async def users():
     return users_list
